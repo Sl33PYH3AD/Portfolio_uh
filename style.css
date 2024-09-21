@@ -28,3 +28,10 @@ header {
 img {
     height: 700px;
 }
+
+.playfair-display {
+    font-family: "Playfair Display", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 14;
+    font-style: normal;
+  }
