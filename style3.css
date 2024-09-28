@@ -50,5 +50,12 @@
   /* 3 экран */
 
   .feedback {
-	background-color:#0000007b
+	background-color:#0000007b;
+	padding: 5%;
+	text-align: center;
+
+  }
+
+  #submit {
+	margin-top: 5%;
   }
