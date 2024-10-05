@@ -42,7 +42,7 @@
 }
 
 .chakra-petch-regular {
-	font-family: "Chakra Petch", sans-serif;
+	font-family: "Chakra Petch";
 	font-weight: 400;
 	font-style: normal;
   }
@@ -58,4 +58,79 @@
 
   #submit {
 	margin-top: 5%;
+  }
+
+  /*baement*/
+  footer {
+	background-color: #000000b9;
+  }
+
+  .footer-info {
+	color: #c7d6f1;
+	font-size: 16pt;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	width: 30%;
+	margin: auto;
+  }
+
+  #telegram {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+	
+  }
+
+  #telegram:hover {
+	fill: aliceblue;
+  }
+
+  #tumblr {
+	width: 8%;
+	height: 8%;
+	fill: #c7d6f1;
+  }
+
+  #tumblr:hover {
+	fill: aliceblue;
+  }
+
+  #discord {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+  }
+
+  #discord:hover {
+	fill: aliceblue;
+  }
+
+  #vk {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+  }
+
+  #vk:hover {
+	fill: aliceblue;
+  }
+
+  #spotify {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+  }
+
+  #spotify:hover {
+	fill: aliceblue;
+  }
+
+  .icon {
+ 	 margin: 3%;
+
+  }
+  .logo {
+	margin: 3%;
   }
