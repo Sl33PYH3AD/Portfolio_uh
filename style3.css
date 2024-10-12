@@ -1,3 +1,8 @@
+body {
+	background-image: url(ojo.gif);			
+}
+
+
 .interesting {
 	background: linear-gradient(#0d1d368c, #001941b7);
 }
@@ -60,6 +65,17 @@
 	margin-top: 5%;
   }
 
+  /*шакпа*/
+  header {
+    background-image: url(1920x1080.jpg);
+  }
+
+  .overlay {
+	 position: absolute;
+     color: #f4f4f4;
+	 min-width: 100%;
+	 min-height: 100%;
+  }
   /*baement*/
   footer {
 	background-color: #000000b9;
@@ -104,16 +120,6 @@
   }
 
   #discord:hover {
-	fill: aliceblue;
-  }
-
-  #vk {
-	width: 13%;
-	height: 13%;
-	fill: #c7d6f1;
-  }
-
-  #vk:hover {
 	fill: aliceblue;
   }
 
