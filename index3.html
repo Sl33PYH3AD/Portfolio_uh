@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<link 
+	rel="stylesheet" 
+	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+	/>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
@@ -12,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style3.css">
 </head>
-<body class="chakra-petch-regular">
+<body class="chakra-petch-regular ">
 	<!-- панель навигацииииии-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
@@ -38,16 +41,59 @@
 				</div>
 		</div>
 	  </nav>
+	  <!--
+		<div class="carousel-inner">
+		  <div class="carousel-item active" data-bs-interval="10000">
+			<img src="..." class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item" data-bs-interval="2000">
+			<img src="..." class="d-block w-100" alt="...">
+		  </div>
+		  <div class="carousel-item">
+			<img src="..." class="d-block w-100" alt="...">
+		  </div>
+		</div>
+		
+	  </div>	  -->
 	  <!-- шапка -->
-	   <header>
-			<div class="overlay"></div>
-            <div  class="container">
-				<div class="descripton-text center">
-					<h3>meow</h3>
-					<p>rfyg</p>
+	  <header>
+		<div id="каруселььь" class="carousel slide" data-bs-ride="carousel">
+		<div class="overlay"></div>
+		<!--1 слайд-->
+		<div class="carousel-item actie">
+			<img src="img/" class="w-100 d-block">
+                <div  class="container">
+					<div class="descripton-text center">
+						<h3>meow</h3>
+							<p>very not interesting text bla bla bla bla bla
+							</p>
+						</div>
+					</div>
 				</div>
+				<!--2 слайд-->
+				<div class="carousel-item actie">
+					<img src="img/" class="w-100 d-block">
+						<div  class="container">
+							<div class="descripton-text center">
+								<h3>meow</h3>
+									<p>very not interesting text bla bla bla bla bla
+									</p>
+								</div>
+							</div>
+						</div>
+					<!--кнопкп 1-->
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<!--2 knopka-->
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+				</button>
 			</div>
-	   </header>
+		</header>
+
 
 	<div class="container">
 		<div class="row">
@@ -67,22 +113,22 @@
 		<div class="container"> 
 
 			<!--заголовок -->
-			<div class="row">
+
+			<div class="row animate__animated animate__fadeInUp">
 				<div class="col-lg-12">
 					<div class="title">
-						<h2 class="title_main">✨DESCRIPTION✨</h2>
-						<p class="title_text"> This section describes the advantages of my pag </p>
-						<p class="title_text"> (I have no idea what to write here) </p>
+						<h2 class="title_main ">✨</h2>
+						<p class="title_text"> No matter what time you have right now </p>
+						<p class="title_main"> Good morning, Good afternoon, Good evening and Good night! </p>
 					</div>
 				</div>
 			</div>
 
 			<!--Текст -->
 
-			<div class="row">
+			<div class="row animate__animated animate__fadeInUp">
 				<div class="col-lg-4">
 	                    <div class="feature d-flex">
-	                        <!-- <i class="fa fa-tablet feature__icon"></i> -->
 	                        <p class="emoji">☀️</p>
 	                        <div class="feature__block">
 	                            <h3 class="feature__title">
@@ -95,9 +141,8 @@
 	                    </div>
 	                </div>
 
-	                <div class="col-lg-4">
-	                    <div class="feature d-flex">
-	                        <!-- <i class="fa fa-lemon-o feature__icon"></i> -->
+	                <div class="col-lg-4 ">
+	                    <div class="feature d-flex">>
 	                        <p class="emoji">🌻</p>
 	                        <div class="feature__block">
 	                            <h3 class="feature__title">
@@ -112,7 +157,6 @@
 
 	                <div class="col-lg-4">
 	                    <div class="feature d-flex">
-	                        <!-- <i class="fa fa-folder-o feature__icon"></i> -->
 	                        <p class="emoji">🌙</p>
 	                        <div class="feature__block">
 	                            <h3 class="feature__title">
@@ -126,10 +170,9 @@
 	                </div>
                 </div>
 
-                <div class="row">
+                <div class="row animate__animated animate__fadeInUp">
 					<div class="col-lg-4">
 	                    <div class="feature d-flex">
-	                        <!-- <i class="fa fa-code feature__icon"></i> -->
 	                        <p class="emoji">✨</p>
 	                        <div class="feature__block">
 	                            <h3 class="feature__title">
@@ -144,7 +187,6 @@
 
 	                <div class="col-lg-4">
 	                    <div class="feature d-flex">
-	                        <!-- <i class="fa fa-envelope-o  feature__icon"></i> -->
 	                        <p class="emoji">💫</p>
 	                        <div class="feature__block">
 	                            <h3 class="feature__title">
@@ -159,7 +201,6 @@
 
 	                <div class="col-lg-4">
 	                    <div class="feature d-flex">
-	                        <!-- <i class="fa fa-bookmark-o feature__icon"></i> -->
 	                        <p class="emoji">🌟</p>
 	                        <div class="feature__block">
 	                            <h3 class="feature__title">
@@ -174,7 +215,7 @@
 	            </div>
 	    </div>
     </section>
-	<div class="col-sm-12 d-flex justify-content-center" >
+	<div class="col-sm-12 d-flex justify-content-center animate__animated animate__fadeInUp" >
 		<div class="feedback">
 			<h2 class="title_main">
               do not contact me
@@ -190,7 +231,7 @@
 	</div>
 	<!-- basement -->
 	 <footer>
-		<div class="container">
+		<div class="container" animate__animated animate__fadeInUp>
 			</div class="row">
 				<div class="col-lg-12">
 					<div class="footer-info">
@@ -210,12 +251,15 @@
 						<svg class="icon" id="spotify" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"> 
 							<path d="M248 8C111.1 8 0 119.1 0 256s111.1 248 248 248 248-111.1 248-248S384.9 8 248 8zm100.7 364.9c-4.2 0-6.8-1.3-10.7-3.6-62.4-37.6-135-39.2-206.7-24.5-3.9 1-9 2.6-11.9 2.6-9.7 0-15.8-7.7-15.8-15.8 0-10.3 6.1-15.2 13.6-16.8 81.9-18.1 165.6-16.5 237 26.2 6.1 3.9 9.7 7.4 9.7 16.5s-7.1 15.4-15.2 15.4zm26.9-65.6c-5.2 0-8.7-2.3-12.3-4.2-62.5-37-155.7-51.9-238.6-29.4-4.8 1.3-7.4 2.6-11.9 2.6-10.7 0-19.4-8.7-19.4-19.4s5.2-17.8 15.5-20.7c27.8-7.8 56.2-13.6 97.8-13.6 64.9 0 127.6 16.1 177 45.5 8.1 4.8 11.3 11 11.3 19.7-.1 10.8-8.5 19.5-19.4 19.5zm31-76.2c-5.2 0-8.4-1.3-12.9-3.9-71.2-42.5-198.5-52.7-280.9-29.7-3.6 1-8.1 2.6-12.9 2.6-13.2 0-23.3-10.3-23.3-23.6 0-13.6 8.4-21.3 17.4-23.9 35.2-10.3 74.6-15.2 117.5-15.2 73 0 149.5 15.2 205.4 47.8 7.8 4.5 12.9 10.7 12.9 22.6 0 13.6-11 23.3-23.2 23.3z"/>
 						</svg>
+						<svg class="icon" id="BlueSky" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+							<path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3zM288 227.1C261.9 176.4 190.9 81.9 124.9 35.3C61.6-9.4 37.5-1.7 21.6 5.5C3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7c3.3-.5 6.6-.9 10-1.4c-3.3 .5-6.6 1-10 1.4C74.3 308.6-9.1 342.8 100.3 464.5C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4c102.4-103.4 28.1-156-65.8-169.9c-3.3-.4-6.7-.8-10-1.3c3.4 .4 6.7 .9 10 1.3c64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1z"/>
+						</svg>
 					</div>
 				</div>
 			</div>
 		</div>
 	 </footer>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-	 <script type="text/java" href="script.js"></script>
+	 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

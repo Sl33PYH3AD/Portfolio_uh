@@ -1,7 +1,36 @@
-body {
-	background-image: url(ojo.gif);			
-}
+  /*шакпа*/
+  header {
+    background-image: url(1920x1080.jpg);
+	background-size: cover;
+  }
 
+  .overlay {
+	 position: absolute;
+     color: #f4f4f4;
+	 min-width: 100%;
+	 min-height: 100%;
+  }
+
+  .white-text {
+	color: white;
+  }
+
+  .description {
+	background: #c7d6f1;
+	position: absolute;
+	color: black;
+	font-size: 20pt;
+	margin-top: 5%;
+	padding: 5%;
+	width: 50%;
+	z-index: 20;
+  }
+
+  /*я не помню*/
+
+  body {
+	background-image: url(ojo.gif) ;			
+}
 
 .interesting {
 	background: linear-gradient(#0d1d368c, #001941b7);
@@ -16,7 +45,7 @@ body {
 	padding-top: 5%;
 	padding-bottom: 5% ;
 	color: #c7d6f1;
-
+	
 }
 
 .title_main {
@@ -65,17 +94,7 @@ body {
 	margin-top: 5%;
   }
 
-  /*шакпа*/
-  header {
-    background-image: url(1920x1080.jpg);
-  }
 
-  .overlay {
-	 position: absolute;
-     color: #f4f4f4;
-	 min-width: 100%;
-	 min-height: 100%;
-  }
   /*baement*/
   footer {
 	background-color: #000000b9;
@@ -133,6 +152,16 @@ body {
 	fill: aliceblue;
   }
 
+  #BlueSky {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+  }
+
+  #BlueSky:hover {
+	fill: aliceblue;
+  }
+
   .icon {
  	 margin: 3%;
 
@@ -142,3 +171,5 @@ body {
 	height: 5%;
 	margin: 3%;
   }
+
+  
