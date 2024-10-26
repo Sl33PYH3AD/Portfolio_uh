@@ -1,30 +1,52 @@
-  /*шакпа*/
-  header {
-    background-image: url(1920x1080.jpg);
+/*Шапка*/
+header {
 	background-size: cover;
+	
   }
-
-  .overlay {
-	 position: absolute;
-     color: #f4f4f4;
-	 min-width: 100%;
-	 min-height: 100%;
+  
+  img {
+	height: 500px;
   }
-
-  .white-text {
-	color: white;
+  
+  #first-slide {
+	background-image: url("1920x1080.jpg");
   }
-
-  .description {
-	background: #c7d6f1;
+  
+  #second-slide {
+	background-image: url("1920x1080.jpg");
+  }
+  
+  .slides {
 	position: absolute;
+  /*  min-width: 100%;
+	min-height: 100%;*/
+  }
+  
+  .overlay {
+	position: absolute;
+	background: rgba(227, 222, 219, 0.4);
+	min-width: 100%;
+	min-height: 100%;
+	z-index: 10;
+  }
+  
+  .white-text {
+	color: rgb(219, 245, 255);
+  }
+  
+  .description {
+	background: rgba(0, 0, 0, 0.6);
+	position: relative;
 	color: black;
 	font-size: 20pt;
 	margin-top: 5%;
-	padding: 5%;
+	margin-bottom: 3%;
+	padding: 3%;
 	width: 50%;
 	z-index: 20;
+	left: 25%;
   }
+  
 
   /*я не помню*/
 
@@ -170,6 +192,14 @@
 	width: 5%;
 	height: 5%;
 	margin: 3%;
+  }
+
+  
+  .bob {
+	background-color: #05011bd0 ;
+	padding: 1%;
+	text-align: center;
+
   }
 
   
