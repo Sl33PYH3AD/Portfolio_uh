@@ -1,0 +1,123 @@
+
+ footer {
+	background-color: #000000b9;
+  }
+
+  .footer-info {
+	color: #c7d6f1;
+	font-size: 16pt;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+	width: 30%;
+	margin: auto;
+  }
+
+  #telegram {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+	
+  }
+
+  #telegram:hover {
+	fill: aliceblue;
+  }
+
+  #tumblr {
+	width: 8%;
+	height: 8%;
+	fill: #c7d6f1;
+  }
+
+  #tumblr:hover {
+	fill: aliceblue;
+  }
+
+  #discord {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+  }
+
+  #discord:hover {
+	fill: aliceblue;
+  }
+
+  #spotify {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+  }
+
+  #spotify:hover {
+	fill: aliceblue;
+  }
+
+  #BlueSky {
+	width: 13%;
+	height: 13%;
+	fill: #c7d6f1;
+  }
+
+  #BlueSky:hover {
+	fill: aliceblue;
+  }
+
+  .icon {
+ 	 margin: 3%;
+
+  }
+  .logo {
+	width: 5%;
+	height: 5%;
+	margin: 3%;
+  }
+
+  
+  .bob {
+	background-color: #05011bd0 ;
+	padding: 1%;
+	text-align: center;
+
+  }
+  .title {
+	padding-top: 5%;
+	padding-bottom: 5% ;
+	color: #c7d6f1;
+	
+}
+
+.title_main {
+	font-size: 32px;
+	text-align: center;
+	color: rgb(215, 227, 250);
+	text-shadow: 0 0 1px;
+}
+
+.title_text {
+	font-size: 20px;
+    text-align: center;
+	color: rgb(215, 227, 250);
+	text-shadow: 0 0 1px;
+
+}
+
+.feature__title{
+	color: rgb(215, 227, 250);
+	text-shadow: 0 0 1px;
+
+}
+
+.feature__text{
+	color: #ffffff;
+	text-shadow: 0 0 1px #c7d6f1;
+
+}
+
+.chakra-petch-regular {
+	font-family: "Chakra Petch";
+	font-weight: 400;
+	font-style: normal;
+  }

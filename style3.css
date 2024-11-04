@@ -48,9 +48,10 @@ header {
   }
   
 
-  /*я не помню*/
 
-  body {
+/*я не помню*/
+
+body {
 	background-image: url(ojo.gif) ;			
 }
 
@@ -115,8 +116,7 @@ header {
   #submit {
 	margin-top: 5%;
   }
-
-
+  
   /*baement*/
   footer {
 	background-color: #000000b9;
