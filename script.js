@@ -1,7 +1,7 @@
-$(document).ready(
-    () => $("header").height($(window).height())
-);
+// $(document).ready(
+//     () => $("header").height($(window).height())
+// );
 
-console.log($(window).height());
+// console.log($(window).height());
 
 

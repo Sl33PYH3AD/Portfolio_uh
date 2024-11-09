@@ -3,10 +3,6 @@ body {
 	background-image: url("../ojo.gif") ;			
 }
 
-.interesting {
-	background: linear-gradient(#0d1d368c, #001941b7);
-}
-
 .emoji {
 	font-size: 35px;
 	

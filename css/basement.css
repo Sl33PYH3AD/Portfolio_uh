@@ -1,7 +1,6 @@
-
- footer {
+ footer{
 	background-color: #000000b9;
-  }
+ }
 
   .footer-info {
 	color: #c7d6f1;
@@ -12,6 +11,17 @@
 	padding-top: 1%;
 	width: 30%;
 	margin: auto;
+  }
+
+  .feedback {
+	background-color: #000000b9;
+	color: #c7d6f1;
+	font-size: 16pt;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1%;
+
   }
 
   #telegram {
@@ -76,12 +86,6 @@
   }
 
   
-  .bob {
-	background-color: #05011bd0 ;
-	padding: 1%;
-	text-align: center;
-
-  }
   .title {
 	padding-top: 5%;
 	padding-bottom: 5% ;
